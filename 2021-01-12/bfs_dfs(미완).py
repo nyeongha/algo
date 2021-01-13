@@ -1,10 +1,7 @@
 from collections import deque
-
-
 def dfs(start):
     visited = []
     stack = [start]
-
     while stack:
         pn = stack.pop()
         print(pn)
@@ -40,12 +37,12 @@ for x in range(b):
     m, n = map(int, input().split())
     if m not in gr:
         gr[m] = []
-    if n not in gr:
+        if n not in gr[m]:
+            gr[m].append(n)
+    elif n not in gr:
         gr[n] = []
-    if n not in gr[m]:
-        gr[m].append(n)
-    if m not in gr[n]:
-        gr[n].append(m)
+        if m not in gr[n]:
+            gr[n].append(m)
 
 print(' '.join(map(str, dfs(c))))
 print(' '.join(map(str, bfs(c))))
