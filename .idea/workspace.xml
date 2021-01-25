@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edd1a145-aa20-49a5-86c1-9af81f900240" name="Default Changelist" comment="Default Changelist" />
+    <list default="true" id="edd1a145-aa20-49a5-86c1-9af81f900240" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/2021-01-24/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021-01-24/.idea/2021-01-24.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021-01-24/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021-01-24/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021-01-24/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021-01-24/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021-01-24/dynamic.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
