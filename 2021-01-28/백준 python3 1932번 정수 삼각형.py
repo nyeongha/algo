@@ -16,5 +16,5 @@ for x in range(len(igle)):
         b=igle[x-1].index(su[x-1])
         ssuu[x]=(igle[x][a] if igle[x][a]>igle[x][a+1] else igle[x][a+1])
         su[x]=(igle[x][b] if igle[x][b]>igle[x][b+1] else igle[x][b+1])
-k=(sum(ssuu) if sum(ssuu)>sum(su) else sum(su))
+k=(sum(ssuu) if sum(ssuu)>=sum(su) else sum(su))
 print(k)
