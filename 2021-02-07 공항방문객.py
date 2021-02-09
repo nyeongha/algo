@@ -3,7 +3,7 @@ def func_a(arr, n):
     for x in arr:
         if x != n:
             ret.append(x)
-    return
+    return ret
 
 def func_b(a, b):
     if a >= b:
