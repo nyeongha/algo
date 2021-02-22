@@ -8,4 +8,4 @@ count=0
 for x,y,t in arr:
     if dic[x]>dic[y]>dic[t]:
         count+=1
-print(count)
+print(coun)
