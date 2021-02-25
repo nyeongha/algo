@@ -4,4 +4,4 @@ def ti(t):
         tile[y]=(tile[y-1]+tile[y-2])%15746
     return tile[t]
 a=int(input())
-print(ti(a))
+print(ti(title))
