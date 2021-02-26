@@ -1,7 +1,7 @@
 from itertools import combinations
 import sys
 dic={}
-for x in range(int(sys.stdin.readline())):
+for x in range(int(sys.stdin.readline()))
     dic[x]=sys.stdin.readline()
 arr=list(combinations(dic, 3))
 count=0
