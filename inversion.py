@@ -7,5 +7,5 @@ arr=list(combinations(dic, 3))
 cnt=0
 for x,y,t in arr:
     if dic[x]>dic[y]>dic[t]:
-        cnt+=2
+        cnt+=1
 print(cnt)
