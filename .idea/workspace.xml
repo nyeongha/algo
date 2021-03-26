@@ -35,7 +35,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Python.21-01-25 백준 python3 1149번 RGB거리">
+  <component name="RunManager" selected="Python.21-03-26 백준 python3 1149번 RGB거리">
     <configuration name="순열 제거" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="21-01-25 백준 python3 1149번 RGB거리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="21-03-26 백준 python3 1149번 RGB거리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,7 +111,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21-01-25 백준 python3 1149번 RGB거리.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21-03-26 백준 python3 1149번 RGB거리.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,7 +227,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.21-01-25 백준 python3 1149번 RGB거리" />
+        <item itemvalue="Python.21-03-26 백준 python3 1149번 RGB거리" />
         <item itemvalue="Python.inversion" />
         <item itemvalue="Python.순열 제거" />
         <item itemvalue="Python.2021-02-07 공항방문객" />
