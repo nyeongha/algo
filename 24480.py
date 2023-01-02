@@ -17,7 +17,7 @@ for _ in range(M):
 def dfs(x):
     global cnt
     visited[x]=cnt
-    adj[x].sort()
+    adj[x].sort(reverse=True)
     for i in adj[x]:
         if not visited[i]:
             cnt+=1
