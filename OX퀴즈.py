@@ -5,4 +5,4 @@ def solution(quiz):
             answer.append("O")
         else:
             answer.append("X")
-    return answe
+    return answer
