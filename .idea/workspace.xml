@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edd1a145-aa20-49a5-86c1-9af81f900240" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/2606.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1966.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +29,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1mC2tV7Xf1Qz7n886AZbqiFmYFG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,7 +49,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.2606">
+  <component name="RunManager">
     <configuration name="11866번 요세푸스문제 0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,7 +205,8 @@
       <workItem from="1678260417183" duration="4323000" />
       <workItem from="1678271607300" duration="239000" />
       <workItem from="1678778503657" duration="9000" />
-      <workItem from="1678778520259" duration="9956000" />
+      <workItem from="1678778520259" duration="10040000" />
+      <workItem from="1678864713315" duration="5114000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1678271398882</created>
@@ -253,6 +256,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algo$1966.coverage" NAME="1966 커버리지 결과" MODIFIED="1678876814201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algo$1654.coverage" NAME="1654 커버리지 결과" MODIFIED="1678779323190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algo$2606.coverage" NAME="2606 커버리지 결과" MODIFIED="1678794051038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
