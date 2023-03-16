@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edd1a145-aa20-49a5-86c1-9af81f900240" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/1966.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10974.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,7 +206,7 @@
       <workItem from="1678271607300" duration="239000" />
       <workItem from="1678778503657" duration="9000" />
       <workItem from="1678778520259" duration="10040000" />
-      <workItem from="1678864713315" duration="5114000" />
+      <workItem from="1678864713315" duration="15005000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1678271398882</created>
@@ -256,8 +256,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/algo$1966.coverage" NAME="1966 커버리지 결과" MODIFIED="1678876814201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algo$1966.coverage" NAME="1966 커버리지 결과" MODIFIED="1678876925025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algo$1654.coverage" NAME="1654 커버리지 결과" MODIFIED="1678779323190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algo$10974.coverage" NAME="10974 커버리지 결과" MODIFIED="1678961846246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algo$2606.coverage" NAME="2606 커버리지 결과" MODIFIED="1678794051038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
