@@ -1,30 +1,18 @@
 import sys
 
-n=(str(sys.stdin.readline().strip()))
-visited=[0]*len(n)
+n=int(sys.stdin.readline().strip())
+visited=[0]*(n+1)
 s=[]
-y=[]
 
 def dfs():
-    if len(n)==len(s):
-        y.append(int(''.join(s)))
+    if len(s)==n:
+        print(*s)
         return
-
-    for i in range(len(n)):
+    for i in range(1,n+1):
         if visited[i]==0:
-            s.append(n[i])
-            visited[i]=1
+            s.append(i)
+            visited[i]
             dfs()
             s.pop()
             visited[i]=0
-
 dfs()
-y.sort()
-for x in y:
-    if x > int(n):
-        print(x)
-        break;
-    if x==y[-1]:
-        print(0)
-        break;
-
