@@ -1,0 +1,25 @@
+import sys
+arr=[]
+for x in range(int(sys.stdin.readline())):
+    a=list(sys.stdin.readline().split())
+    if len(a)==2:
+        if a[0]=='push':
+            arr.append(int(a[1]))
+    elif len(a)==1:
+        if a[0]=='pop':
+            if arr:
+                print(arr.pop())
+            else:print(-1)
+        elif a[0]=='size':
+            print(len(arr))
+        elif a[0]=='empty':
+            if not arr:
+                print(1)
+            else:
+                print(0)
+        elif a[0]=='top':
+            if arr:
+                print(arr[len(arr)-1])
+            else:
+                print(-1)
+
