@@ -1,14 +1,27 @@
+# import sys
+# from collections import deque
+# a=int(sys.stdin.readline())
+# arr=deque(list(map(int, sys.stdin.readline().split())))
+# st=[-1]*a
+# cnt=0
+# while arr:
+#     x=arr.popleft()
+#     if len(arr)==0:
+#         break
+#     for i in arr:
+#         if i>x:
+#             st[cnt]=i
+#             break
+#     cnt+=1
+# print(*st)
+
 import sys
-a=int(sys.stdin.readline())
-arr=list(map(int, sys.stdin.readline().split()))
-ar=[-1 for _ in range(a)]
-stc=[]
-for _ in range(a):
-    if _!=a-1 and arr[_]<arr[_+1]:
-        ar[_]=arr[_+1]
-        while stc and arr[stc[-1]] < ar[_]:
-            ar[stc[-1]]=ar[_]
-            stc.pop()
-    else:
-        stc.append(_)
-print(*ar)
+n = int(input())
+A = list(map(int, sys.stdin.readline().split()))
+NGE = [-1] * n
+stack = [0]
+for i in range(1,n):
+    while stack and A[stack[-1]]<A[i]:
+        NGE[stack.pop()]=A[i]
+    stack.append(i)
+print(*NGE)
