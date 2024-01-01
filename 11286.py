@@ -4,12 +4,12 @@ input = sys.stdin.readline
 hq=[]
 
 for i in range(int(input())):
-    heappush(hq,int(input()))
-cnt=0
-while len(hq)!=1:
-    a=heappop(hq)
-    b=heappop(hq)
-    cnt+=(a+b)
-    heappush(hq, a + b)
-
-print(cnt)
+    x=(int(input()))
+    if x:
+        heappush(hq,(abs(x),x))
+    else:
+        if not hq:
+            print(0)
+        else:
+            n=heappop(hq)
+            print(n[1])
